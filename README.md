@@ -1,0 +1,6 @@
+# 30 Days of Elixir 
+
+Inspired by https://github.com/seven1m/30-days-of-elixir, i have attempted to do my own version of a a walk through the Elixir language. One exercise everyday. 
+
+Understanding Elixir Basics 
+**[01-elixir-maps.exs](01-elixir-maps.exs)** - Starting from understanding Maps. 
