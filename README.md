@@ -4,3 +4,5 @@ Inspired by https://github.com/seven1m/30-days-of-elixir, i have attempted to do
 
 Understanding Elixir Basics 
 **[01-elixir-maps.exs](01-elixir-maps.exs)** - Starting from understanding Maps. 
+
+**[02-elixir-maps.exs](01-elixir-lists.exs)** - Starting from understanding Lists Part 1. 
