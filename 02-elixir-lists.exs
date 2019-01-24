@@ -18,6 +18,22 @@ defmodule ListSample do
     [head*2 | square(tail)]
   end
 
+  def add_1([]) do
+    []
+  end
+
+  def add_1([head|tail]) do
+    [1+head | add_1(tail)]
+  end
+
+  def map([]) do
+    []
+  end
+
+  def map([head|tail], func) do
+    [func.(head)|tail]
+  end
+
 end
 
 defmodule ListTest do
@@ -45,6 +61,14 @@ defmodule ListTest do
 
   test "calculating square of list using recursion" do
     ListSample.square([2,3,4]) == [4,9,16]
+  end
+
+  test "add 1 to list" do
+    ListSample.square([2,3]) == [3,4]
+  end
+
+  test "map function" do
+    ListSample.map([2], fn(n) -> n*n end)
   end
 end
 
