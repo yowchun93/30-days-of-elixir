@@ -34,6 +34,22 @@ defmodule ListSample do
     [func.(head)|tail]
   end
 
+  def sum([]) do
+    0
+  end
+
+  def sum([head|tail]) do
+    head + sum(tail)
+  end
+
+  def reduce([], value, _func) do
+    value
+  end
+
+  def reduce([head|tail], value, func) do
+    reduce(tail, func.(head, value), func)
+  end
+
 end
 
 defmodule ListTest do
@@ -67,8 +83,24 @@ defmodule ListTest do
     ListSample.square([2,3]) == [3,4]
   end
 
-  test "map function" do
-    ListSample.map([2], fn(n) -> n*n end)
+  test "map function, double the value" do
+    ListSample.map([2], fn(n) -> n*n end) == [4]
+  end
+
+  test "map function, adding 1 to the value" do
+    ListSample.map([2,3], fn(n) -> n+1 end) == [3,4]
+  end
+
+  test "map function, using shortcut annotation" do
+    ListSample.map([2,3], &(&1 + 1)) == [3,4]
+  end
+
+  test "reduce function" do
+    ListSample.reduce([1,2], 0, fn(a,b) -> a+b end) == 3
+  end
+
+  test "reduce multiply function" do
+    ListSample.reduce([1,2,3], 0, fn(a,b) -> a*b end) == 6
   end
 end
 
