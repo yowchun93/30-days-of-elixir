@@ -6,3 +6,5 @@ Understanding Elixir Basics
 **[01-elixir-maps.exs](01-elixir-maps.exs)** - Starting from understanding Maps. 
 
 **[02-elixir-maps.exs](01-elixir-lists.exs)** - Starting from understanding Lists Part 1. 
+
+**[02-elixir-fibonaci-sequence.exs](01-elixir-lists.exs)** - Implementing Fibonacci Sequence in Elixir. 
