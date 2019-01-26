@@ -17,6 +17,26 @@ defmodule MyList do
     acum
   end
 
+  def max(list) do
+    max(list, nil)
+  end
+
+  defp _max([head|tail], current_max=nil) do
+    max(tail, head)
+  end
+
+  defp _max([head|tail], current_max) do
+    current_max
+  end
+
+  defp _max([head|tail], current_max) when head >= current_max do
+    max(tail, head)
+  end
+
+  defp _max([head|tail], current_max) when head < current_max do
+    max(tail, current_max)
+  end
+
 end
 
 defmodule ListTest do
@@ -24,6 +44,10 @@ defmodule ListTest do
 
   test "mapsum sums the result" do
     MyList.mapsum([1,2,3], fn(a,b) -> a*b end)
+  end
+
+  test "max in list" do
+    MyList.max([1,2,3]) == 3
   end
 
 
