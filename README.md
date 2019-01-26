@@ -5,6 +5,8 @@ Inspired by https://github.com/seven1m/30-days-of-elixir, i have attempted to do
 Understanding Elixir Basics 
 **[01-elixir-maps.exs](01-elixir-maps.exs)** - Starting from understanding Maps. 
 
-**[02-elixir-maps.exs](01-elixir-lists.exs)** - Starting from understanding Lists Part 1. 
+**[02-elixir-maps.exs](02-elixir-maps.exs)** - Starting from understanding Lists Part 1. 
 
-**[02-elixir-fibonaci-sequence.exs](01-elixir-lists.exs)** - Implementing Fibonacci Sequence in Elixir. 
+**[03-elixir-fibonaci-sequence.exs](03-elixir-fibonaci-sequence.exs)** - Implementing Fibonacci Sequence in Elixir. 
+
+**[04-elixir-lists-2.exs](03-elixir-lists-2.exs)** - Part 2 of learning List, mainly following exercises from Programming Elixir book from Dave Thomas

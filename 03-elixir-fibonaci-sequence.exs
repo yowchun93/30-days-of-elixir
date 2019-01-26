@@ -11,10 +11,10 @@ defmodule Fib do
   ## tail recursion
   def fib(n), do: fib(n, 0, 1)
 
-  def fib(0, prev, _), do: prev
+  def fib(0, acc, _), do: acc
 
-  def fib(n, prev, cur) do
-    fib(n - 1, cur, prev + cur)
+  def fib(n, acc, cur) do
+    fib(n - 1, cur, acc + cur)
   end
 
 end
