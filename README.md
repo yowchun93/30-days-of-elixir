@@ -10,3 +10,7 @@ Understanding Elixir Basics
 **[03-elixir-fibonaci-sequence.exs](03-elixir-fibonaci-sequence.exs)** - Implementing Fibonacci Sequence in Elixir. 
 
 **[04-elixir-lists-2.exs](03-elixir-lists-2.exs)** - Part 2 of learning List, mainly following exercises from Programming Elixir book from Dave Thomas
+
+**[05-elixir-maps-2.exs](05-elixir-maps-2.exs)** - Part 2 of learning Map, mainly following exercises from Programming Elixir book from Dave Thomas
+
+**[07-elixir-protocol.exs](05-elixir-protocol.exs)** - Learning Elixir Protocol from this fantastic video https://www.youtube.com/watch?v=sJvfCE6PFxY from Kevin Rockwood in ElixirConf EU 2017
