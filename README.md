@@ -12,6 +12,8 @@ Understanding Elixir Basics
 
 **[05-elixir-maps-2.exs](05-elixir-maps-2.exs)** - Part 2 of learning Map, mainly following exercises from Programming Elixir book from Dave Thomas
 
-**[07-elixir-protocol.exs](05-elixir-protocol.exs)** - Learning Elixir Protocol from this fantastic video https://www.youtube.com/watch?v=sJvfCE6PFxY from Kevin Rockwood in ElixirConf EU 2017
+**[07-elixir-protocol.exs](07-elixir-protocol.exs)** - Learning Elixir Protocol from this fantastic video https://www.youtube.com/watch?v=sJvfCE6PFxY from Kevin Rockwood in ElixirConf EU 2017
 
-**[07-elixir-enum.ex](05-elixir-enum.ex)** - Learning Elixir Enums, by implementing basic most common Enum functions [using list and recursions
+**[08-elixir-enum.ex](08-elixir-enum.ex)** - Learning Elixir Enums, by implementing basic most common Enum functions [using list and recursions
+
+**[08-elixir-enum.ex](05-elixir-comprehension.ex)** - Learning Elixir Comprehension 
